@@ -27,4 +27,9 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent = new Intent(this, MediaPlayerActivity.class);
         startActivity(intent);
     }
+
+    public void gotoCanvasDemoActivity(View view) {
+        Intent intent = new Intent(this, CanvasDemoActivity.class);
+        startActivity(intent);
+    }
 }

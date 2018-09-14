@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.yzy.imagedemo">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +21,8 @@
         <activity android:name=".SurfaceViewActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".BollsActivity" />
-        <activity android:name=".MediaPlayerActivity"></activity>
+        <activity android:name=".MediaPlayerActivity" />
+        <activity android:name=".CanvasDemoActivity"></activity>
     </application>
 
 </manifest>
