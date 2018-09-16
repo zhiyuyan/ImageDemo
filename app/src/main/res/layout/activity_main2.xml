@@ -11,24 +11,35 @@
         android:onClick="gotoSurfaceView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="SurfaceView"/>
 
     <Button
         android:onClick="gotoBollsSurfaceView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="BollsSurfaceView"/>
 
     <Button
         android:onClick="gotoMediaPlayerActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="MediaPlayerActivity"/>
 
     <Button
         android:onClick="gotoCanvasDemoActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="gotoCanvasDemoActivity"/>
+
+    <Button
+        android:onClick="gotoPaintDemoActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="gotoPaintDemoActivity"/>
 
 </LinearLayout>
