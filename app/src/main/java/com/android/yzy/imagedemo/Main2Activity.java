@@ -37,4 +37,9 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent = new Intent(this, PaintDemoActivity.class);
         startActivity(intent);
     }
+
+    public void gotoXmlDrawableActivity(View view) {
+        Intent intent = new Intent(this, XmlDrawableDemoActivity.class);
+        startActivity(intent);
+    }
 }

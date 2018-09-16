@@ -23,7 +23,8 @@
         <activity android:name=".BollsActivity" />
         <activity android:name=".MediaPlayerActivity" />
         <activity android:name=".CanvasDemoActivity" />
-        <activity android:name=".PaintDemoActivity"></activity>
+        <activity android:name=".PaintDemoActivity" />
+        <activity android:name=".XmlDrawableDemoActivity"></activity>
     </application>
 
 </manifest>
