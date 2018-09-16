@@ -47,4 +47,9 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent = new Intent(this, DashBoardActivity.class);
         startActivity(intent);
     }
+
+    public void gotoLayerDemoActivity(View view) {
+        Intent intent = new Intent(this, LayerDemoActivity.class);
+        startActivity(intent);
+    }
 }
