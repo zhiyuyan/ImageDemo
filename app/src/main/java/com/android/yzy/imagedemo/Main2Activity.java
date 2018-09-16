@@ -42,4 +42,9 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent = new Intent(this, XmlDrawableDemoActivity.class);
         startActivity(intent);
     }
+
+    public void gotoDashBoardActivity(View view) {
+        Intent intent = new Intent(this, DashBoardActivity.class);
+        startActivity(intent);
+    }
 }

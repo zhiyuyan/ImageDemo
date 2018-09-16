@@ -24,7 +24,8 @@
         <activity android:name=".MediaPlayerActivity" />
         <activity android:name=".CanvasDemoActivity" />
         <activity android:name=".PaintDemoActivity" />
-        <activity android:name=".XmlDrawableDemoActivity"></activity>
+        <activity android:name=".XmlDrawableDemoActivity" />
+        <activity android:name=".DashBoardActivity"></activity>
     </application>
 
 </manifest>
